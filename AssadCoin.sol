@@ -2,7 +2,6 @@ pragma solidity ^0.4.21;
 
 import "./EIP20Interface.sol";
 
-
 contract AssadCoin is EIP20Interface {
 
     uint256 constant private MAX_UINT256 = 2**256 - 1;
